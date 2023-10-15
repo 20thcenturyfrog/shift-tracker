@@ -1,0 +1,19 @@
+.shift-cell_active {
+  border: 1px solid red;
+}
+
+.shift-cell_rest {
+  background-color: orange;
+}
+
+.shift-cell_vacation {
+  background-color: green;
+}
+
+.shift-cell_sick-leave {
+  background-color: grey;
+}
+
+.shift-cell_resignation {
+  background-color: blue;
+}
