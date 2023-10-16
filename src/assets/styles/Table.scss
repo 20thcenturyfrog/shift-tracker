@@ -29,12 +29,17 @@
 
     &-icons {
       gap: 4px;
+
+      & > img {
+        cursor: pointer;
+      }
     }
   }
 
   &__add-employee {
     color: $blue-link;
     gap: 4px;
+    cursor: pointer;
   }
 
   &__day-cell {
