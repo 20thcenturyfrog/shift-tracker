@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shift-tracker/static/css/main.df264cac.css",
+    "main.css": "/shift-tracker/static/css/main.3e8095d4.css",
     "main.js": "/shift-tracker/static/js/main.46f61cdf.js",
     "static/js/787.afdd3faa.chunk.js": "/shift-tracker/static/js/787.afdd3faa.chunk.js",
     "static/media/stolzl_medium.otf": "/shift-tracker/static/media/stolzl_medium.37a1ad5e0454ca26a278.otf",
@@ -23,12 +23,12 @@
     "static/media/booklet-line.svg": "/shift-tracker/static/media/booklet-line.f7ea585264a3779f53f832fc59a2d6e3.svg",
     "static/media/arrow-down-s-fill.svg": "/shift-tracker/static/media/arrow-down-s-fill.dced6bd0eaa701d399404e4e322d6e99.svg",
     "static/media/more.svg": "/shift-tracker/static/media/more.dc58ae5274666febb78a4156dd0ad8ab.svg",
-    "main.df264cac.css.map": "/shift-tracker/static/css/main.df264cac.css.map",
+    "main.3e8095d4.css.map": "/shift-tracker/static/css/main.3e8095d4.css.map",
     "main.46f61cdf.js.map": "/shift-tracker/static/js/main.46f61cdf.js.map",
     "787.afdd3faa.chunk.js.map": "/shift-tracker/static/js/787.afdd3faa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df264cac.css",
+    "static/css/main.3e8095d4.css",
     "static/js/main.46f61cdf.js"
   ]
 }
