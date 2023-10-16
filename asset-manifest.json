@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/shift-tracker/static/css/main.df264cac.css",
+    "main.js": "/shift-tracker/static/js/main.46f61cdf.js",
+    "static/js/787.afdd3faa.chunk.js": "/shift-tracker/static/js/787.afdd3faa.chunk.js",
+    "static/media/stolzl_medium.otf": "/shift-tracker/static/media/stolzl_medium.37a1ad5e0454ca26a278.otf",
+    "static/media/stolzl_regular.otf": "/shift-tracker/static/media/stolzl_regular.9603d48be34f3721c9c6.otf",
+    "static/media/wechat-line.svg": "/shift-tracker/static/media/wechat-line.be9a2cd26b62813d03bcd164396e7952.svg",
+    "static/media/control-ui-button.svg": "/shift-tracker/static/media/control-ui-button.f3b3567eb353e53ef383cbdff3ee7000.svg",
+    "static/media/truck-line.svg": "/shift-tracker/static/media/truck-line.37f543bf7e9d4ee77f2a47a330ee5e80.svg",
+    "static/media/logo.svg": "/shift-tracker/static/media/logo.eb84d0325ea05412a9e0fcd8d82349da.svg",
+    "static/media/user-driver-icon.svg": "/shift-tracker/static/media/user-driver-icon.206d58d268647e2ccbc06949039b1974.svg",
+    "static/media/alert-line.svg": "/shift-tracker/static/media/alert-line.56bd810b037addc9c7cba44181d4294e.svg",
+    "static/media/admin-line.svg": "/shift-tracker/static/media/admin-line.3b2878515e691c2558a72734735aef4d.svg",
+    "static/media/briefcase-line.svg": "/shift-tracker/static/media/briefcase-line.0069dfd4e76b135a22b22dac9ce1da8c.svg",
+    "static/media/control-ui-button-more.svg": "/shift-tracker/static/media/control-ui-button-more.af7b734a70440908315d8697baa9b71c.svg",
+    "static/media/calendar-check-line.svg": "/shift-tracker/static/media/calendar-check-line.f10e062bbc41049a7700ec6f5500c6a8.svg",
+    "index.html": "/shift-tracker/index.html",
+    "static/media/search-line.svg": "/shift-tracker/static/media/search-line.40e7b119d839edc1828a9f40de0140d6.svg",
+    "static/media/notification-3-line.svg": "/shift-tracker/static/media/notification-3-line.8fa0bee853fabd1409832e43669fbf01.svg",
+    "static/media/arrow-right-circle-line.svg": "/shift-tracker/static/media/arrow-right-circle-line.e3fe9c70dbc68290d3ddb4e36e0377e3.svg",
+    "static/media/add-fill.svg": "/shift-tracker/static/media/add-fill.0bac10369f99ca833805a5da83ff5a2c.svg",
+    "static/media/booklet-line.svg": "/shift-tracker/static/media/booklet-line.f7ea585264a3779f53f832fc59a2d6e3.svg",
+    "static/media/arrow-down-s-fill.svg": "/shift-tracker/static/media/arrow-down-s-fill.dced6bd0eaa701d399404e4e322d6e99.svg",
+    "static/media/more.svg": "/shift-tracker/static/media/more.dc58ae5274666febb78a4156dd0ad8ab.svg",
+    "main.df264cac.css.map": "/shift-tracker/static/css/main.df264cac.css.map",
+    "main.46f61cdf.js.map": "/shift-tracker/static/js/main.46f61cdf.js.map",
+    "787.afdd3faa.chunk.js.map": "/shift-tracker/static/js/787.afdd3faa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df264cac.css",
+    "static/js/main.46f61cdf.js"
+  ]
+}
