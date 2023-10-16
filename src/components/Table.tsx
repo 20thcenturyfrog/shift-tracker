@@ -1,4 +1,7 @@
 import { ReactNode } from "react";
+import ControlButton from "../assets/images/control-ui-button.svg";
+import ControlButtonMore from "../assets/images/control-ui-button-more.svg";
+import AddIcon from "../assets/images/add-fill.svg";
 
 type TableProps = {
   employees?: string[];
@@ -70,14 +73,18 @@ export const Table = ({
 }: TableProps) => {
   const shiftCells: ReactNode[] = [];
 
+  const shiftEmptyCells: ReactNode[] = [];
+
   let shiftCellKey: number = 1;
+
+  let shiftEmptyCellKey: number = 1;
 
   while (shiftCells.length < DAYS.length) {
     for (const shift of WEEKLY_SHIFTS) {
       shiftCells.push(
         <td
           key={`shift-${shiftCellKey}`}
-          className={`shift-cell shift-cell_${shift.type}`}
+          className={`table__shift-cell table__shift-cell_${shift.type}`}
           onClick={selectCells}
         >
           {shift.short}
@@ -87,21 +94,39 @@ export const Table = ({
     }
   }
 
+  while (shiftEmptyCells.length < DAYS.length) {
+    for (const shift of WEEKLY_SHIFTS) {
+      shiftEmptyCells.push(
+        <td
+          key={`shift-${shiftCellKey}`}
+          className={`table__shift-cell_empty table__shift-cell_${shift.type}`}
+        ></td>
+      );
+      shiftEmptyCellKey++;
+    }
+  }
+
   return (
-    <table>
+    <table className="table">
       <thead>
         <tr>
-          <th></th>
+          <th className="table__header-cell_empty"></th>
           {DAYS.map((day) => (
-            <th key={day.date} className={`day-cell day-cell_${day.type}`}>
+            <th
+              key={day.date}
+              className={`table__day-cell table__day-cell_${day.type}`}
+            >
               {day.name}
             </th>
           ))}
         </tr>
         <tr>
-          <th>Сотрудник</th>
+          <th className="table__employee-header">Сотрудник</th>
           {DAYS.map((day) => (
-            <th key={day.date} className={`day-cell day-cell_${day.type}`}>
+            <th
+              key={day.date}
+              className={`table__date-cell table__date-cell_${day.type}`}
+            >
               {day.date}
             </th>
           ))}
@@ -112,9 +137,15 @@ export const Table = ({
         {employees?.map((employee, index) => {
           return (
             <tr key={index}>
-              <td>
+              <td className="table__employee-cell">
                 {employee}
-                <button onClick={() => deleteEmployee(index)}>Удалить</button>
+                <div className="table__employee-cell-icons">
+                  <img src={ControlButton} />
+                  <img
+                    src={ControlButtonMore}
+                    onClick={() => deleteEmployee(index)}
+                  />
+                </div>
               </td>
               {shiftCells.slice(0, DAYS.length - shiftCells.length)}
             </tr>
@@ -123,7 +154,11 @@ export const Table = ({
       </tbody>
       <tfoot>
         <tr>
-          <td onClick={addEmployee}>Добавить сотрудника</td>
+          <td className="table__add-employee" onClick={addEmployee}>
+            <img src={AddIcon} />
+            Добавить сотрудника
+          </td>
+          {shiftEmptyCells.slice(0, DAYS.length - shiftCells.length)}
         </tr>
       </tfoot>
     </table>

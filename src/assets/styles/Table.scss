@@ -1,0 +1,136 @@
+@import "./tech.scss";
+
+.table {
+  width: 100%;
+  font-size: 16px;
+  line-height: 100%;
+  margin-top: 24px;
+  border: 1px solid $middle-gray-blue;
+  border-collapse: separate;
+  border-left: 0;
+  border-radius: 12px;
+  border-spacing: 0px;
+
+  &__header-cell_empty,
+  &__employee-header,
+  &__employee-cell,
+  &__add-employee {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 12px;
+    height: 35px;
+  }
+
+  &__employee-cell {
+    justify-content: space-between;
+
+    &-icons {
+      gap: 4px;
+    }
+  }
+
+  &__add-employee {
+    color: $blue-link;
+    gap: 4px;
+  }
+
+  &__day-cell {
+    color: $bia-gray-color-1;
+
+    &_weekend {
+      background-color: $red-shade-1;
+      color: $red;
+    }
+  }
+
+  &__date-cell_weekend {
+    background-color: $red-shade-1;
+    color: $red;
+  }
+
+  &__shift-cell {
+    cursor: pointer;
+
+    &_rest {
+      background-color: $red-shade-1;
+    }
+
+    &_vacation {
+      background-color: $blue-status;
+      color: $white;
+    }
+
+    &_sick-leave {
+      background-color: $yellow-status;
+    }
+
+    &_resignation {
+      background-color: $red-status;
+      color: $white;
+    }
+
+    &_active {
+      border-radius: 2px;
+      border: 2px solid $red;
+    }
+
+    &_empty {
+      cursor: auto;
+    }
+  }
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-collapse: separate;
+
+  &:first-child tr:first-child th {
+    border-bottom: 1px solid $middle-gray-blue;
+  }
+}
+
+thead:first-child tr:first-child th:first-child,
+tbody:first-child tr:first-child td:first-child {
+  border-radius: 12px 0 0 0;
+}
+
+thead:last-child tr:last-child th:first-child,
+tfoot:last-child tr:last-child td:first-child {
+  border-radius: 0 0 0 12px;
+}
+
+thead:first-child tr:first-child th:last-child {
+  border-radius: 0 12px 0 0;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th,
+td {
+  padding: 4px;
+  text-align: left;
+  vertical-align: top;
+  border-left: 1px solid $middle-gray-blue;
+}
+
+th {
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  background-color: $light-gray-blue;
+  cursor: auto;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  border-top: 1px solid $middle-gray-blue;
+}

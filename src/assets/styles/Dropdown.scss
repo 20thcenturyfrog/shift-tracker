@@ -1,0 +1,20 @@
+@import "./tech.scss";
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 8px;
+  background-color: $white;
+  box-shadow: 0px 1px 8px 0px $dropdown-shadow;
+  margin-top: 24px;
+
+  &__option {
+    display: flex;
+    align-items: center;
+    padding: 0px 24px;
+    height: 40px;
+    border-bottom: 1px solid $gray;
+    cursor: pointer;
+  }
+}

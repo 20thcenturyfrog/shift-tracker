@@ -12,13 +12,14 @@ const OPTIONS = [
 
 export const Dropdown = ({ editCell }: DropdownProps) => {
   return (
-    <div>
+    <div className="dropdown">
       {OPTIONS.map((option) => {
         return (
           <div
             key={option.type}
             data-type={option.type}
             data-short={option.short}
+            className="dropdown__option"
             onClick={editCell}
           >
             {option.name}

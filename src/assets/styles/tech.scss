@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Stolzl";
+  src: url("../fonts/stolzl_regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+
+@font-face {
+  font-family: "Stolzl";
+  src: url("../fonts/stolzl_medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+
+$white: #fff;
+$dark: #2b2d35;
+$dark-gray: #3c4049;
+$bia-gray-color-1: #7a7b85;
+$bia-gray-color-2: #b0b1b5;
+$middle-gray-blue: #b8c4db;
+$light-gray-blue: #f4f6f9;
+$gray: #eaeef4;
+$red: #f0303f;
+$blue-link: #308add;
+$purple-status: #9747ff;
+$green-status: #59c617;
+$red-status: #ff4f4f;
+$orange-status: #eb5627;
+$blue-status: #219ee4;
+$yellow-status: #fada6b;
+$green-shade-1: #eef9e8;
+$green-shade-2: #cdeeb9;
+$red-shade-1: #feeaec;
+$red-shade-2: #fbc1c5;
+$blue-shade-1: #eaf3fc;
+$blue-shade-2: #c1dcf5;
+$dropdown-shadow: rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.14);
+$sidebar-shadow: rgba(34, 62, 78, 0.15);
+$pressed-button-red: #c71b29;
